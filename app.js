@@ -16,8 +16,8 @@ mongoose.connect("mongodb://localhost:27017/universidad",{
 const {Schema} = mongoose;
 const useasignaturas = new Schema({
     _id:String,
-    materia:String,
-    creditos:String
+    Materia:String,
+    Creditos:String
 });
  
 const ModeloAsig = mongoose.model('asignaturas',useasignaturas);
